@@ -1,0 +1,231 @@
+body {
+    background: url(bg.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(13, 0, 50);
+    background-size: 2150px 1800px;
+    color: white;
+    padding: 10px;
+}
+.center {
+    margin: auto;
+    width: 60%;
+  }
+#container {
+    width: 100%;
+    padding-top: 150px;
+}
+#container .postbox {
+    background-color: rgb(44, 44, 44);
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+} 
+#container .postbox {
+    font-size: 30px;
+}
+#container h4 {
+    font-size: 11px;
+}
+#container a {
+    text-decoration: none;
+    font-size: 45px;
+    color: rgb(0, 238, 255);
+}
+#container hr {
+    width: 100%;
+    margin-left: -8px;
+}
+#container textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    resize: none;
+    font-size: 30px;
+    height: 90px;
+}
+#container #commentname {
+    font-size: 30px;
+    font-weight: normal;
+    background-color: rgb(80, 80, 80);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 17px;
+    width: fit-content;
+    height: 100px;
+    width: 95%;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#container #commentname a {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+#container button {
+    float: right;
+    background-color: blue;
+    color: white;
+    border: 0px solid black;
+    border-radius: 5px;
+}
+#container #comment {
+    display:inline-block;
+    position:relative;
+    width: fit-content;
+    padding: 0;
+}
+#container #comment textarea {
+    height: 50px;
+    float: left;
+    width: 865px;
+    text-align: left;
+    background-color: transparent;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;;
+    outline: 0;
+    margin-left: -11px;
+}
+#container .comment {
+    padding-bottom: 0px;
+}
+#container .comment h4 .commenttime{
+    padding-left: 10px;
+    font-size: 16px;
+}
+#container .postbox .commenttime {
+    font-size: 16px;
+}
+#container .postarea {
+    display:inline-block;
+    position:relative;
+    width: 100%;
+    height: 220px;
+    border: 1px solid black;
+    padding-top: 40px;
+    border-radius: 20px;
+    background-color: rgb(44, 44, 44);
+}
+#container .postarea button {
+    position:absolute;
+    bottom:30px;
+    right:40px;
+    background-color: rgb(201, 0, 94);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    padding-right: 7px;
+    padding-top: 7px;
+    font-size: 40px;
+}
+#container #comment button {
+    position:absolute;
+    bottom:5px;
+    right:15px;
+    background-color: transparent;
+    color: rgb(201, 0, 94);
+    border-radius: 5px;
+    font-size: 35px;
+}
+#post {
+    border: 2px solid black;
+    display: table;
+    clear: both;
+}
+#login {
+    text-align: center;
+    border: 1px solid black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(38, 38, 145);
+    border-radius: 20px;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+#login a {
+    text-decoration: none;
+    color: rgb(0, 183, 255);;
+}
+#login input {
+    text-align: left;
+    width: 90%;
+    height: 100px;
+    background-color: transparent;
+    font-size: 40px;
+    border: none;
+    color: white;
+    border-bottom: 2px solid #d3d3d3;
+    box-shadow: none;;
+    outline: 0;
+}
+#login #signupbtn {
+    text-align: right;
+    font-size: 35px;
+    padding-right: 45px;
+    padding-top: 20px;
+}
+#login button {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    width: 90%;
+    height: 80px;
+    border: 1px solid black;
+    background-color: rgb(51, 56, 141);
+    border-radius: 10px;
+    color: white;
+}
+.loginpage {
+    font-size: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+#login #logo {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+#login #logo img {
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+}
+.fixed-header {
+    width: 100%;
+    position: fixed;   
+    background: rgb(44, 44, 44);
+    padding: 5px;
+    color: rgb(201, 0, 94);
+    border-top: 2px solid black;
+    border-bottom: 3px solid black;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+.header {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.fixed-header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+}
+.fixed-header i {
+    color: rgb(255, 255, 255);
+    font-size: 95px;
+}
